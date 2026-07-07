@@ -1385,7 +1385,7 @@ p {
 
   /* smile image */
   .grid-five .polaroid:nth-child(1) img {
-    height: 220px !important;
+    height: 240px !important;
     object-position: center center !important;
   }
 
