@@ -1172,16 +1172,17 @@ p {
 /* ABOVE IMAGE TEXT */
 
 .caption-top {
-  top: -75px;
-  left: 20px;
+  top: -45px;
+  left: 15px;
   transform: rotate(-15deg);
 }
+
 
 /* BELOW IMAGE TEXT */
 
 .caption-bottom {
-  bottom: -75px;
-  left: 25px;
+  bottom: -35px;
+  left: 20px;
   transform: rotate(12deg);
 }
 
@@ -1189,9 +1190,8 @@ p {
 /* SIDE TEXT */
 
 .caption-side {
-  top: 50px;
-  right: -130px;
-
+  top: 40px;
+  right: -55px;
   transform: rotate(85deg);
 }
 
@@ -1210,37 +1210,77 @@ p {
   opacity: 1;
   transform: none;
 }
+
 /* Individual caption adjustments */
 
-/* p1_2 */
+
+/* p1_2 First Pic */
 .first-pic-text {
-  bottom: -25px;
-  right: 20px;
-  left: auto;
+  bottom: -30px;
+  left: 20px;
+  right: auto;
+  transform: rotate(12deg);
 }
 
-/* p3_2 */
+
+/* p3_2 love your expressions */
 .expression-text {
-  bottom: -45px;
-  left: 25px;
+  bottom: -35px;
+  left: 30px;
+  right: auto;
+  transform: rotate(10deg);
 }
 
-/* p3_3 */
+
+/* p3_3 My Princess */
 .princess-text {
-  right: -95px;
-  top: 35%;
-}
-
-/* p5_2 */
-.my-kiss-text {
-  bottom: -50px;
-  right: 5px;
+  top: 45px;
+  right: -50px;
   left: auto;
+  transform: rotate(85deg);
 }
 
-/* p6_2 */
+
+/* p5_1 can die for this smile */
+.smile-text {
+  top: -45px;
+  left: 25px;
+  right: auto;
+  transform: rotate(-14deg);
+}
+
+
+/* p5_2 my kissss */
+.my-kiss-text {
+  bottom: -35px;
+  left: 25px;
+  right: auto;
+  transform: rotate(12deg);
+}
+
+
+/* p5_3 ufff sareee */
+.saree-text {
+  top: 45px;
+  right: -50px;
+  left: auto;
+  transform: rotate(85deg);
+}
+
+
+/* p5_5 cutieeee */
+.cutie-text {
+  bottom: -35px;
+  left: 25px;
+  right: auto;
+  transform: rotate(12deg);
+}
+
+
+/* p6_2 sleepy baby */
 .sleepy-text {
   top: -40px;
-  left: 10px;
+  left: 20px;
+  right: auto;
   transform: rotate(-15deg);
 }
