@@ -84,6 +84,7 @@ function fadeMusic(to, duration = 700) {
 
 function startMusic() {
   if (!bgMusic || musicStarted) return;
+  bgMusic.loop = true;
   bgMusic.volume = 0;
   bgMusic.play()
     .then(() => {
