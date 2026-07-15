@@ -389,13 +389,13 @@ window.addEventListener("resize", resizeCanvas);
 if (bgMusic) {
 
   bgMusic.addEventListener("loadedmetadata", () => {
-    bgMusic.currentTime = 17;
+    bgMusic.currentTime = 0;
   });
 
 
   bgMusic.addEventListener("timeupdate", () => {
     if (bgMusic.currentTime >= 164) {
-      bgMusic.currentTime = 17;
+      bgMusic.currentTime = 0;
       bgMusic.play();
     }
   });
