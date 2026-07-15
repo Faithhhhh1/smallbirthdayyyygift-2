@@ -386,7 +386,7 @@ musicToggle.addEventListener("click", toggleMusic);
 envelope.addEventListener("click", openEnvelope);
 window.addEventListener("resize", resizeCanvas);
 
-// Birthday song custom timeline (0:00 - 4:20)
+// Birthday song custom timeline (0:00 - 4:17)
 
 if (bgMusic) {
 
@@ -396,7 +396,7 @@ if (bgMusic) {
 
 
   bgMusic.addEventListener("timeupdate", () => {
-    if (bgMusic.currentTime >= 260) {
+    if (bgMusic.currentTime >= 257) {
       bgMusic.currentTime = 0;
       bgMusic.play();
     }
